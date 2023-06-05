@@ -1,0 +1,7 @@
+﻿{
+  "passwordLength": 10,
+  "email": "fedor-korzh@gmail.com",
+  "initialTime": "00:00:00",
+  "timeDelayForOpeningWindow": 3000,
+  "maximumInterest": 3
+}
