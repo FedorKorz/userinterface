@@ -20443,3 +20443,495 @@ Performance: All
 2023-06-05 11:35:15 INFO - Text Field 'Timer' :: Getting text from element
 2023-06-05 11:35:15 INFO - Text Field 'Timer' :: Element's text: [00:00:00]
 2023-06-05 11:35:15 INFO - Closing browser
+2023-06-12 08:17:33 DEBUG - Get settings from: settings.json
+2023-06-12 08:17:39 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:17:39 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:17:39 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:17:39 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:17:42 INFO - Browser 'Chrome' ready...
+2023-06-12 08:17:42 INFO - Maximizing browser window
+2023-06-12 08:17:42 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:17:43 INFO - Waiting for page to load
+2023-06-12 08:17:43 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:17:44 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:17:44 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:17:44 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 08:17:44 INFO - Text Field 'Password field' :: Waiting for element to be displayed
+2023-06-12 08:17:45 INFO - Text Field 'Password field' :: Clearing
+2023-06-12 08:17:45 INFO - Text Field 'Password field' :: Typing '*********'
+2023-06-12 08:17:45 INFO - Text Field 'Email Login field' :: Clearing
+2023-06-12 08:17:45 INFO - Text Field 'Email Login field' :: Typing 'fedor-korzh'
+2023-06-12 08:17:45 INFO - Text Field 'Domain field' :: Clearing
+2023-06-12 08:17:45 INFO - Text Field 'Domain field' :: Typing 'gmail'
+2023-06-12 08:17:45 INFO - ComboBox 'Extension field' :: Clicking
+2023-06-12 08:17:45 INFO - Waiting for page to load
+2023-06-12 08:17:46 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 1' :: Element's text: [.org]
+2023-06-12 08:17:46 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 2' :: Element's text: [.co.uk]
+2023-06-12 08:17:46 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 3' :: Element's text: [.net]
+2023-06-12 08:17:46 INFO - Text Field 'element 4' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 4' :: Element's text: [.gov]
+2023-06-12 08:17:46 INFO - Text Field 'element 5' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 5' :: Element's text: [.de]
+2023-06-12 08:17:46 INFO - Text Field 'element 6' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 6' :: Element's text: [.fr]
+2023-06-12 08:17:46 INFO - Text Field 'element 7' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 7' :: Element's text: [.nl]
+2023-06-12 08:17:46 INFO - Text Field 'element 8' :: Getting text from element
+2023-06-12 08:17:46 INFO - Text Field 'element 8' :: Element's text: [.com]
+2023-06-12 08:17:46 INFO - Text Field 'element 8' :: Clicking
+2023-06-12 08:17:46 INFO - Waiting for page to load
+2023-06-12 08:17:46 INFO - CheckBox 'Terms checkbox' :: Getting state
+2023-06-12 08:17:46 INFO - CheckBox 'Terms checkbox' :: State: [False]
+2023-06-12 08:17:46 INFO - CheckBox 'Terms checkbox' :: Setting value - 'True'
+2023-06-12 08:17:46 INFO - CheckBox 'Terms checkbox' :: Clicking
+2023-06-12 08:17:46 INFO - CheckBox 'Second Card button' :: Clicking
+2023-06-12 08:17:47 INFO - Waiting for page to load
+2023-06-12 08:17:48 INFO - Label 'Unselecent all checkbox' :: Clicking
+2023-06-12 08:17:48 INFO - Link 'Upload link' :: Clicking
+2023-06-12 08:17:51 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 1' :: Element's text: [Ponies]
+2023-06-12 08:17:51 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 2' :: Element's text: [Polo]
+2023-06-12 08:17:51 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 3' :: Element's text: [Dough]
+2023-06-12 08:17:51 INFO - Text Field 'element 4' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 4' :: Element's text: [Snails]
+2023-06-12 08:17:51 INFO - Text Field 'element 5' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 5' :: Element's text: [Balls]
+2023-06-12 08:17:51 INFO - Text Field 'element 6' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 6' :: Element's text: [Post-its]
+2023-06-12 08:17:51 INFO - Text Field 'element 7' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 7' :: Element's text: [Faucets]
+2023-06-12 08:17:51 INFO - Text Field 'element 8' :: Getting text from element
+2023-06-12 08:17:51 INFO - Text Field 'element 8' :: Element's text: [Enveloppes]
+2023-06-12 08:17:51 INFO - Text Field 'element 9' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 9' :: Element's text: [Cables]
+2023-06-12 08:17:52 INFO - Text Field 'element 10' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 10' :: Element's text: [Questions]
+2023-06-12 08:17:52 INFO - Text Field 'element 11' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 11' :: Element's text: [Squares]
+2023-06-12 08:17:52 INFO - Text Field 'element 12' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 12' :: Element's text: [Purple]
+2023-06-12 08:17:52 INFO - Text Field 'element 13' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 13' :: Element's text: [Cotton]
+2023-06-12 08:17:52 INFO - Text Field 'element 14' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 14' :: Element's text: [Dry-wall]
+2023-06-12 08:17:52 INFO - Text Field 'element 15' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 15' :: Element's text: [Closets]
+2023-06-12 08:17:52 INFO - Text Field 'element 16' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 16' :: Element's text: [Tires]
+2023-06-12 08:17:52 INFO - Text Field 'element 17' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 17' :: Element's text: [Windows]
+2023-06-12 08:17:52 INFO - Text Field 'element 18' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 18' :: Element's text: [Select all]
+2023-06-12 08:17:52 INFO - Text Field 'element 19' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 19' :: Element's text: [Mullets]
+2023-06-12 08:17:52 INFO - Text Field 'element 20' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 20' :: Element's text: [Cinnamon]
+2023-06-12 08:17:52 INFO - Text Field 'element 21' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 21' :: Element's text: [Unselect all]
+2023-06-12 08:17:52 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 1' :: Element's text: [Ponies]
+2023-06-12 08:17:52 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 1' :: Element's text: [Ponies]
+2023-06-12 08:17:52 INFO - Label 'Interest label' :: Clicking
+2023-06-12 08:17:52 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 2' :: Element's text: [Polo]
+2023-06-12 08:17:52 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 3' :: Element's text: [Dough]
+2023-06-12 08:17:52 INFO - Text Field 'element 4' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 4' :: Element's text: [Snails]
+2023-06-12 08:17:52 INFO - Text Field 'element 5' :: Getting text from element
+2023-06-12 08:17:52 INFO - Text Field 'element 5' :: Element's text: [Balls]
+2023-06-12 08:17:52 INFO - Text Field 'element 6' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 6' :: Element's text: [Post-its]
+2023-06-12 08:17:53 INFO - Text Field 'element 7' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 7' :: Element's text: [Faucets]
+2023-06-12 08:17:53 INFO - Text Field 'element 8' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 8' :: Element's text: [Enveloppes]
+2023-06-12 08:17:53 INFO - Text Field 'element 9' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 9' :: Element's text: [Cables]
+2023-06-12 08:17:53 INFO - Text Field 'element 9' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 9' :: Element's text: [Cables]
+2023-06-12 08:17:53 INFO - Label 'Interest label' :: Clicking
+2023-06-12 08:17:53 INFO - Text Field 'element 10' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 10' :: Element's text: [Questions]
+2023-06-12 08:17:53 INFO - Text Field 'element 11' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 11' :: Element's text: [Squares]
+2023-06-12 08:17:53 INFO - Text Field 'element 12' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 12' :: Element's text: [Purple]
+2023-06-12 08:17:53 INFO - Text Field 'element 13' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 13' :: Element's text: [Cotton]
+2023-06-12 08:17:53 INFO - Text Field 'element 14' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 14' :: Element's text: [Dry-wall]
+2023-06-12 08:17:53 INFO - Text Field 'element 15' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 15' :: Element's text: [Closets]
+2023-06-12 08:17:53 INFO - Text Field 'element 16' :: Getting text from element
+2023-06-12 08:17:53 INFO - Text Field 'element 16' :: Element's text: [Tires]
+2023-06-12 08:17:53 INFO - Text Field 'element 17' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 17' :: Element's text: [Windows]
+2023-06-12 08:17:54 INFO - Text Field 'element 18' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 18' :: Element's text: [Select all]
+2023-06-12 08:17:54 INFO - Text Field 'element 19' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 19' :: Element's text: [Mullets]
+2023-06-12 08:17:54 INFO - Text Field 'element 19' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 19' :: Element's text: [Mullets]
+2023-06-12 08:17:54 INFO - Label 'Interest label' :: Clicking
+2023-06-12 08:17:54 INFO - Text Field 'element 20' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 20' :: Element's text: [Cinnamon]
+2023-06-12 08:17:54 INFO - Text Field 'element 21' :: Getting text from element
+2023-06-12 08:17:54 INFO - Text Field 'element 21' :: Element's text: [Unselect all]
+2023-06-12 08:17:54 INFO - Button 'Next Page Button' :: Clicking
+2023-06-12 08:17:54 INFO - Waiting for page to load
+2023-06-12 08:17:54 INFO - Closing browser
+2023-06-12 08:17:55 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:17:55 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:17:55 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:17:55 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:17:56 INFO - Browser 'Chrome' ready...
+2023-06-12 08:17:56 INFO - Maximizing browser window
+2023-06-12 08:17:56 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:17:58 INFO - Waiting for page to load
+2023-06-12 08:17:58 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:17:58 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:17:58 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:17:58 INFO - Button 'Hide Form Button' :: Clicking
+2023-06-12 08:17:58 INFO - Button 'Hide Form Button' :: Waiting for element to be invisible or absent
+2023-06-12 08:18:02 DEBUG - Elements were found by locator 'By.XPath: //button[contains(@class, 'send-to-bottom')]' but not in desired state Displayed
+2023-06-12 08:18:02 DEBUG - Elements were found by locator 'By.XPath: //button[contains(@class, 'send-to-bottom')]' but not in desired state Displayed
+2023-06-12 08:18:02 INFO - Closing browser
+2023-06-12 08:18:03 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:18:03 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:18:03 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:18:03 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:18:04 INFO - Browser 'Chrome' ready...
+2023-06-12 08:18:04 INFO - Maximizing browser window
+2023-06-12 08:18:05 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:18:06 INFO - Waiting for page to load
+2023-06-12 08:18:06 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:18:06 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:18:06 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:18:06 INFO - Button 'Cookies Panel' :: Waiting for element to be clickable
+2023-06-12 08:18:08 INFO - Button 'Cookies Panel' :: Clicking
+2023-06-12 08:18:09 INFO - Button 'Accept Cookies button' :: Waiting for element to be clickable
+2023-06-12 08:18:09 INFO - Button 'Accept Cookies button' :: Clicking
+2023-06-12 08:18:09 DEBUG - No elements with locator 'By.XPath: //div[@class='cookies']' were found in Displayed state
+2023-06-12 08:18:09 INFO - Closing browser
+2023-06-12 08:18:09 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:18:09 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:18:09 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:18:09 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:18:12 INFO - Browser 'Chrome' ready...
+2023-06-12 08:18:12 INFO - Maximizing browser window
+2023-06-12 08:18:12 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:18:14 INFO - Waiting for page to load
+2023-06-12 08:18:14 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:18:14 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:18:14 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:18:14 INFO - Text Field 'Timer' :: Getting text from element
+2023-06-12 08:18:15 INFO - Text Field 'Timer' :: Element's text: [00:00:00]
+2023-06-12 08:18:15 INFO - Closing browser
+2023-06-12 08:24:11 DEBUG - Get settings from: settings.json
+2023-06-12 08:24:11 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:24:11 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:24:11 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:24:11 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:24:13 INFO - Browser 'Chrome' ready...
+2023-06-12 08:24:13 INFO - Maximizing browser window
+2023-06-12 08:24:13 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:24:14 INFO - Waiting for page to load
+2023-06-12 08:24:14 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:24:15 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:24:15 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:24:15 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 08:24:15 INFO - Text Field 'Password field' :: Waiting for element to be displayed
+2023-06-12 08:24:15 INFO - Text Field 'Password field' :: Clearing
+2023-06-12 08:24:15 INFO - Text Field 'Password field' :: Typing '*********'
+2023-06-12 08:24:15 INFO - Text Field 'Email Login field' :: Clearing
+2023-06-12 08:24:15 INFO - Text Field 'Email Login field' :: Typing 'fedor-korzh'
+2023-06-12 08:24:16 INFO - Text Field 'Domain field' :: Clearing
+2023-06-12 08:24:16 INFO - Text Field 'Domain field' :: Typing 'gmail'
+2023-06-12 08:24:16 INFO - ComboBox 'Extension field' :: Clicking
+2023-06-12 08:24:16 INFO - Waiting for page to load
+2023-06-12 08:24:16 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:24:16 INFO - Text Field 'element 1' :: Element's text: [.org]
+2023-06-12 08:24:16 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:24:16 INFO - Text Field 'element 2' :: Element's text: [.co.uk]
+2023-06-12 08:24:16 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:24:16 INFO - Text Field 'element 3' :: Element's text: [.net]
+2023-06-12 08:24:16 INFO - Text Field 'element 4' :: Getting text from element
+2023-06-12 08:24:17 INFO - Text Field 'element 4' :: Element's text: [.gov]
+2023-06-12 08:24:17 INFO - Text Field 'element 5' :: Getting text from element
+2023-06-12 08:24:17 INFO - Text Field 'element 5' :: Element's text: [.de]
+2023-06-12 08:24:17 INFO - Text Field 'element 6' :: Getting text from element
+2023-06-12 08:24:17 INFO - Text Field 'element 6' :: Element's text: [.fr]
+2023-06-12 08:24:17 INFO - Text Field 'element 7' :: Getting text from element
+2023-06-12 08:24:17 INFO - Text Field 'element 7' :: Element's text: [.nl]
+2023-06-12 08:24:17 INFO - Text Field 'element 8' :: Getting text from element
+2023-06-12 08:24:17 INFO - Text Field 'element 8' :: Element's text: [.com]
+2023-06-12 08:24:17 INFO - Text Field 'element 8' :: Clicking
+2023-06-12 08:24:17 INFO - Waiting for page to load
+2023-06-12 08:24:17 INFO - CheckBox 'Terms checkbox' :: Getting state
+2023-06-12 08:24:17 INFO - CheckBox 'Terms checkbox' :: State: [False]
+2023-06-12 08:24:17 INFO - CheckBox 'Terms checkbox' :: Setting value - 'True'
+2023-06-12 08:24:17 INFO - CheckBox 'Terms checkbox' :: Clicking
+2023-06-12 08:24:17 INFO - CheckBox 'Second Card button' :: Clicking
+2023-06-12 08:24:17 INFO - Waiting for page to load
+2023-06-12 08:24:18 INFO - Label 'Unselecent all checkbox' :: Clicking
+2023-06-12 08:24:18 INFO - Link 'Upload link' :: Clicking
+2023-06-12 08:24:22 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 1' :: Element's text: [Ponies]
+2023-06-12 08:24:22 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 2' :: Element's text: [Polo]
+2023-06-12 08:24:22 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 3' :: Element's text: [Dough]
+2023-06-12 08:24:22 INFO - Text Field 'element 4' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 4' :: Element's text: [Snails]
+2023-06-12 08:24:22 INFO - Text Field 'element 5' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 5' :: Element's text: [Balls]
+2023-06-12 08:24:22 INFO - Text Field 'element 6' :: Getting text from element
+2023-06-12 08:24:22 INFO - Text Field 'element 6' :: Element's text: [Post-its]
+2023-06-12 08:24:22 INFO - Text Field 'element 7' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 7' :: Element's text: [Faucets]
+2023-06-12 08:24:23 INFO - Text Field 'element 8' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 8' :: Element's text: [Enveloppes]
+2023-06-12 08:24:23 INFO - Text Field 'element 9' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 9' :: Element's text: [Cables]
+2023-06-12 08:24:23 INFO - Text Field 'element 10' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 10' :: Element's text: [Questions]
+2023-06-12 08:24:23 INFO - Text Field 'element 11' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 11' :: Element's text: [Squares]
+2023-06-12 08:24:23 INFO - Text Field 'element 12' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 12' :: Element's text: [Purple]
+2023-06-12 08:24:23 INFO - Text Field 'element 13' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 13' :: Element's text: [Cotton]
+2023-06-12 08:24:23 INFO - Text Field 'element 14' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 14' :: Element's text: [Dry-wall]
+2023-06-12 08:24:23 INFO - Text Field 'element 15' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 15' :: Element's text: [Closets]
+2023-06-12 08:24:23 INFO - Text Field 'element 16' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 16' :: Element's text: [Tires]
+2023-06-12 08:24:23 INFO - Text Field 'element 17' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 17' :: Element's text: [Windows]
+2023-06-12 08:24:23 INFO - Text Field 'element 18' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 18' :: Element's text: [Select all]
+2023-06-12 08:24:23 INFO - Text Field 'element 19' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 19' :: Element's text: [Mullets]
+2023-06-12 08:24:23 INFO - Text Field 'element 20' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 20' :: Element's text: [Cinnamon]
+2023-06-12 08:24:23 INFO - Text Field 'element 21' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 21' :: Element's text: [Unselect all]
+2023-06-12 08:24:23 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 1' :: Element's text: [Ponies]
+2023-06-12 08:24:23 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 2' :: Element's text: [Polo]
+2023-06-12 08:24:23 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:24:23 INFO - Text Field 'element 3' :: Element's text: [Dough]
+2023-06-12 08:24:23 INFO - Text Field 'element 3' :: Getting text from element
+2023-06-12 08:24:24 INFO - Text Field 'element 3' :: Element's text: [Dough]
+2023-06-12 08:24:24 INFO - Label 'Interest label' :: Clicking
+2023-06-12 08:24:26 INFO - Closing browser
+2023-06-12 08:24:30 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:24:30 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:24:30 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:24:30 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:24:31 INFO - Browser 'Chrome' ready...
+2023-06-12 08:24:31 INFO - Maximizing browser window
+2023-06-12 08:24:32 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:24:34 INFO - Waiting for page to load
+2023-06-12 08:24:34 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 08:24:34 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 08:24:34 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 08:24:35 INFO - Button 'Hide Form Button' :: Clicking
+2023-06-12 08:24:35 INFO - Button 'Hide Form Button' :: Waiting for element to be invisible or absent
+2023-06-12 08:39:31 DEBUG - Get settings from: settings.json
+2023-06-12 08:39:32 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:39:32 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:39:32 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:39:32 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:39:33 INFO - Browser 'Chrome' ready...
+2023-06-12 08:39:33 INFO - Maximizing browser window
+2023-06-12 08:39:33 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:39:34 INFO - Waiting for page to load
+2023-06-12 08:39:34 INFO - Closing browser
+2023-06-12 08:39:34 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:39:34 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:39:34 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:39:34 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:39:36 INFO - Browser 'Chrome' ready...
+2023-06-12 08:39:36 INFO - Maximizing browser window
+2023-06-12 08:39:36 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:39:37 INFO - Waiting for page to load
+2023-06-12 08:39:37 INFO - Closing browser
+2023-06-12 08:39:38 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:39:38 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:39:38 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:39:38 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 08:39:40 INFO - Browser 'Chrome' ready...
+2023-06-12 08:39:40 INFO - Maximizing browser window
+2023-06-12 08:39:40 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 08:39:41 INFO - Waiting for page to load
+2023-06-12 08:39:41 INFO - Closing browser
+2023-06-12 08:39:41 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 08:39:41 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 08:39:41 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 08:39:41 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 09:05:13 DEBUG - Get settings from: settings.json
+2023-06-12 09:05:13 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 09:05:13 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 09:05:13 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 09:05:13 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 09:05:16 INFO - Browser 'Chrome' ready...
+2023-06-12 09:05:16 INFO - Maximizing browser window
+2023-06-12 09:05:16 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 09:05:17 INFO - Waiting for page to load
+2023-06-12 09:05:17 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 09:05:17 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 09:05:17 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 09:05:18 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 09:20:41 DEBUG - Get settings from: settings.json
+2023-06-12 09:20:42 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 09:20:42 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 09:20:42 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 09:20:42 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 09:20:45 INFO - Browser 'Chrome' ready...
+2023-06-12 09:20:45 INFO - Maximizing browser window
+2023-06-12 09:20:45 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 09:20:47 INFO - Waiting for page to load
+2023-06-12 09:20:47 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 09:20:47 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 09:20:47 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 09:20:48 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 09:24:34 DEBUG - Get settings from: settings.json
+2023-06-12 09:24:35 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 09:24:35 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 09:24:35 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 09:24:35 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 09:24:36 INFO - Browser 'Chrome' ready...
+2023-06-12 09:24:36 INFO - Maximizing browser window
+2023-06-12 09:24:36 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 09:24:38 INFO - Waiting for page to load
+2023-06-12 09:24:38 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 09:24:38 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 09:24:38 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 09:24:39 INFO - Label 'Firs Card' :: Waiting for element to be displayed
