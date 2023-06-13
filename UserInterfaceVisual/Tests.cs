@@ -1,71 +1,77 @@
 using ApiTest.Utils;
+using Aquality.Selenium.Browsers;
+using Aquality.Selenium.Configurations;
 using NUnit.Framework;
 using UserInterfaceVisual.pageObjects;
 using UserInterfaceVisual.PageObjects.Forms;
+using UserInterfaceVisual.Utils;
 
-namespace UserInterfaceVisual;
-
-public class Tests : BaseTest
+namespace UserInterfaceVisual
 {
-    [Test]
-    public void Test1()
+    public class Tests : BaseTest
     {
-        var mainPage = new MainPage();
-        mainPage.State.WaitForDisplayed();
-        Assert.That(mainPage.State.IsDisplayed, Is.True, "Main page hasn't been opened");
-        mainPage.getFirstCard();
+        
+        [Test]
+        public void Test1()
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.State.WaitForDisplayed();
+            Assert.True(mainPage.State.IsDisplayed, "Main page hasn't been opened");
+            mainPage.getFirstCard();
 
-        var firstCard = new FirstCard();
-        firstCard.State.WaitForDisplayed();
-        Assert.That(firstCard.State.IsDisplayed, Is.True, "Second card hasn't been displayed");
-        firstCard.setPasswrod();
-        firstCard.setEmailLogin();
-        firstCard.setEmailDomain();
-        firstCard.clickExtensionDropdown();
-        firstCard.setEmailExtenstion();
-        firstCard.uncheckTermsCheckBox();
-        firstCard.goToSecondCard();
+            FirstCard firstCard = new FirstCard();
+            firstCard.State.WaitForDisplayed();
+            Assert.True(firstCard.State.IsDisplayed, "Second card hasn't been displayed");
+            firstCard.setPasswrod();
+            firstCard.setEmailLogin();
+            firstCard.setEmailDomain();
+            firstCard.clickExtensionDropdown();
+            firstCard.setEmailExtenstion();
+            firstCard.uncheckTermsCheckBox();
+            firstCard.goToSecondCard();
 
-        var secondCard = new SecondCard();
-        Assert.That(secondCard.State.IsDisplayed, Is.True, "Second card hasn't been opened");
-        secondCard.unselectAll();
-        secondCard.clickUplaodLink();
-        secondCard.getIterestsList();
-        secondCard.goToNextPage();
-        var thirdCard = new ThirdCard();
-        Assert.That(thirdCard.State.IsDisplayed, Is.True, "Third card hasn't been opened");
-    }
+            SecondCard secondCard = new SecondCard();
+            Assert.True(secondCard.State.IsDisplayed, "Second card hasn't been opened");
+            secondCard.unselectAll();
+            secondCard.clickUplaodLink();
+            secondCard.getIterestsList();
+            secondCard.goToNextPage();
+            ThirdCard thirdCard = new ThirdCard();
+            Assert.True(thirdCard.State.IsDisplayed, "Third card hasn't been opened");
+        }
 
-    [Test]
-    public void Test2()
-    {
-        var mainPage = new MainPage();
-        mainPage.State.WaitForDisplayed();
-        Assert.That(mainPage.State.IsDisplayed, Is.True, "Main page hasn't been opened");
-        mainPage.getFirstCard();
-        mainPage.hideHelpForm();
-        Assert.That(mainPage.isHelpFormDisplayed(), Is.False);
-    }
-
-    [Test]
-    public void Test3()
-    {
-        var mainPage = new MainPage();
-        mainPage.State.WaitForDisplayed();
-        Assert.That(mainPage.State.IsDisplayed, Is.True, "Main page hasn't been opened");
-        mainPage.getFirstCard();
-        Assert.That(mainPage.isCookiesPanelDisplayed(), Is.True, "Cookies panels hasn't loaded");
-        mainPage.acceptCookies();
-        Assert.That(mainPage.isCookiesPanelClosed(), Is.True, "Cookies panels hasn't closed");
-    }
-
-    [Test]
-    public void Test4()
-    {
-        var mainPage = new MainPage();
-        mainPage.State.WaitForDisplayed();
-        mainPage.getFirstCard();
-        Assert.That(UtilsJson.ReadJsonFile("initialTime"), Is.EqualTo(mainPage.getTimer()),
-            "Website's time doesn't match with Test Data");
+        [Test]
+        public void Test2()
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.State.WaitForDisplayed();
+            Assert.True(mainPage.State.IsDisplayed, "Main page hasn't been opened");
+            mainPage.getFirstCard();
+            mainPage.hideHelpForm();
+            Assert.IsFalse(mainPage.isHelpFormDisplayed());
+            
+        }
+        
+        [Test]
+        public void Test3()
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.State.WaitForDisplayed();
+            Assert.True(mainPage.State.IsDisplayed, "Main page hasn't been opened");
+            mainPage.getFirstCard();
+            Assert.True(mainPage.isCookiesPanelDisplayed(), "Cookies panels hasn't loaded");
+            mainPage.acceptCookies();
+            Assert.True(mainPage.isCookiesPanelClosed(), "Cookies panels hasn't closed");
+        }
+        
+        [Test]
+        public void Test4() 
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.State.WaitForDisplayed();
+            mainPage.getFirstCard();
+            Assert.That(UtilsJson.ReadJsonFile("initialTime"), Is.EqualTo(mainPage.getTimer()), "Website's time doesn't match with Test Data");
+        }
+        
     }
 }

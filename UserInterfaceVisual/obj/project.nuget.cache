@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUaOsFeZPR1FAvfrougpBb/hkcrW6KmzWskfMps9fAyfWz9f8KZFtPCcrGTBnhWgQXhjmT5pn/Ps8sCm0Eo52A==",
+  "dgSpecHash": "D2TsqU7xOC2M/6ulAHj6vx8mpdA7HC4vEqrpZQo+HQa+SrzU4qpEIRlMwcNuD9tnyRK2k5kTFO4SNbfwLZdKpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\userinterface+jenkins\\f.korzh-task_1\\userinterface\\UserInterfaceVisual\\UserInterfaceVisual.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\userinterface+jenkins\\userinterface\\UserInterfaceVisual\\UserInterfaceVisual.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\aquality.selenium\\4.12.0\\aquality.selenium.4.12.0.nupkg.sha512",
@@ -46,7 +46,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"InputSimulator 1.0.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "InputSimulator",
       "targetGraphs": [
         "net7.0"
