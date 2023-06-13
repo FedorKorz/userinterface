@@ -20935,3 +20935,113 @@ Performance: All
 2023-06-12 09:24:38 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
 2023-06-12 09:24:38 INFO - Text Field 'First Card Link' :: Clicking
 2023-06-12 09:24:39 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 10:27:53 DEBUG - Get settings from: settings.json
+2023-06-12 10:27:54 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 10:27:54 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 10:27:54 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 10:27:54 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 10:27:57 INFO - Browser 'Chrome' ready...
+2023-06-12 10:27:57 INFO - Maximizing browser window
+2023-06-12 10:27:57 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 10:27:58 INFO - Waiting for page to load
+2023-06-12 10:27:58 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 10:27:58 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 10:27:59 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 10:27:59 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 10:27:59 INFO - Text Field 'Password field' :: Waiting for element to be displayed
+2023-06-12 10:27:59 INFO - Text Field 'Password field' :: Clearing
+2023-06-12 10:27:59 INFO - Text Field 'Password field' :: Typing '*********'
+2023-06-12 10:28:00 INFO - Text Field 'Email Login field' :: Clearing
+2023-06-12 10:28:00 INFO - Text Field 'Email Login field' :: Typing 'fedor-korzh'
+2023-06-12 10:28:00 INFO - Text Field 'Domain field' :: Clearing
+2023-06-12 10:28:00 INFO - Text Field 'Domain field' :: Typing 'gmail'
+2023-06-12 10:28:00 INFO - ComboBox 'Extension field' :: Clicking
+2023-06-12 10:28:00 INFO - Waiting for page to load
+2023-06-12 10:28:01 INFO - Text Field 'element 1' :: Getting text from element
+2023-06-12 10:28:01 INFO - Text Field 'element 1' :: Element's text: [.org]
+2023-06-12 10:28:01 INFO - Text Field 'element 2' :: Getting text from element
+2023-06-12 10:28:01 INFO - Closing browser
+2023-06-12 10:28:01 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 10:28:01 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 10:28:01 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 10:28:01 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 10:28:03 INFO - Browser 'Chrome' ready...
+2023-06-12 10:28:03 INFO - Maximizing browser window
+2023-06-12 10:28:04 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 10:28:05 INFO - Waiting for page to load
+2023-06-12 10:28:05 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 10:28:05 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 10:28:05 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 10:28:05 INFO - Button 'Hide Form Button' :: Clicking
+2023-06-12 10:28:06 INFO - Button 'Hide Form Button' :: Waiting for element to be invisible or absent
+2023-06-12 12:56:48 DEBUG - Get settings from: settings.json
+2023-06-12 12:56:49 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 12:56:49 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 12:56:49 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 12:56:49 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 12:56:51 INFO - Browser 'Chrome' ready...
+2023-06-12 12:56:51 INFO - Maximizing browser window
+2023-06-12 12:56:51 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 12:56:52 INFO - Waiting for page to load
+2023-06-12 12:56:52 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 13:03:27 DEBUG - Get settings from: settings.json
+2023-06-12 13:03:27 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-06-12 13:03:27 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-06-12 13:03:27 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-06-12 13:03:27 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-06-12 13:03:28 INFO - Browser 'Chrome' ready...
+2023-06-12 13:03:29 INFO - Maximizing browser window
+2023-06-12 13:03:29 INFO - Navigate to URL - 'https://userinyerface.com/'
+2023-06-12 13:03:30 INFO - Waiting for page to load
+2023-06-12 13:03:30 INFO - Label 'MainPage' :: Waiting for element to be displayed
+2023-06-12 13:03:30 INFO - Text Field 'First Card Link' :: Waiting for element to be clickable
+2023-06-12 13:03:30 INFO - Text Field 'First Card Link' :: Clicking
+2023-06-12 13:03:31 INFO - Label 'Firs Card' :: Waiting for element to be displayed
+2023-06-12 13:03:31 INFO - Text Field 'Password field' :: Waiting for element to be displayed
+2023-06-12 13:03:31 INFO - Text Field 'Password field' :: Clearing
+2023-06-12 13:03:31 INFO - Text Field 'Password field' :: Typing '*********'
+2023-06-12 13:03:31 INFO - Text Field 'Email Login field' :: Clearing
+2023-06-12 13:03:31 INFO - Text Field 'Email Login field' :: Typing 'fedor-korzh'
+2023-06-12 13:03:32 INFO - Text Field 'Domain field' :: Clearing
+2023-06-12 13:03:32 INFO - Text Field 'Domain field' :: Typing 'gmail'
+2023-06-12 13:03:32 INFO - ComboBox 'Extension field' :: Clicking
+2023-06-12 13:03:32 INFO - Waiting for page to load
+2023-06-12 13:03:32 DEBUG - Elements were found by locator 'By.XPath: //div[@class='dropdown__list-item']' but not in desired state Displayed
+2023-06-12 13:03:32 DEBUG - No elements with locator 'By.XPath: //div[@class='dropdown__list-item']' were found in Displayed state
+2023-06-12 13:03:32 INFO - CheckBox 'Terms checkbox' :: Getting state

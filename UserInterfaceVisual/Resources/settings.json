@@ -3,7 +3,6 @@
   "isRemote": false,
   "remoteConnectionUrl": "http://localhost:4444/wd/hub",
   "isElementHighlightEnabled": false,
-
   "driverSettings": {
     "chrome": {
       "webDriverVersion": "MatchingBrowser",
@@ -22,7 +21,9 @@
       "loggingPreferences": {
         "Performance": "All"
       },
-      "excludedArguments": [ "enable-automation" ],
+      "excludedArguments": [
+        "enable-automation"
+      ],
       "startArguments": [],
       "pageLoadStrategy": "Normal"
     },
@@ -74,7 +75,9 @@
         "download.prompt_for_download": "false",
         "download.default_directory": "./downloads"
       },
-      "excludedArguments": [ "enable-automation" ],
+      "excludedArguments": [
+        "enable-automation"
+      ],
       "startArguments": []
     },
     "safari": {
@@ -97,8 +100,14 @@
         "disable-popup-blocking": "true",
         "download.prompt_for_download": "false"
       },
-      "excludedArguments": [ "enable-automation" ],
-      "startArguments": [ "--remote-debugging-port=9222", "--no-sandbox", "--disable-dev-shm-usage" ]
+      "excludedArguments": [
+        "enable-automation"
+      ],
+      "startArguments": [
+        "--remote-debugging-port=9222",
+        "--no-sandbox",
+        "--disable-dev-shm-usage"
+      ]
     },
     "yandex": {
       "webDriverVersion": "102.0.5005.61",

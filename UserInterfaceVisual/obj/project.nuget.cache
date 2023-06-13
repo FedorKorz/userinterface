@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3oBa4sVMMryXues3iKr9Kbd5tPTunOhZ2mQA0SyXnmQUAcT288CndyhcbZxEYK6pZMH6cYnFGaJGXUjFRsNYWw==",
+  "dgSpecHash": "WUaOsFeZPR1FAvfrougpBb/hkcrW6KmzWskfMps9fAyfWz9f8KZFtPCcrGTBnhWgQXhjmT5pn/Ps8sCm0Eo52A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\userinterface+jenkins\\f.korzh-task_1\\userinterface\\UserInterfaceVisual\\UserInterfaceVisual.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

@@ -361,3 +361,4 @@ C:\Users\user\Desktop\userinterface+jenkins\f.korzh-task_1\userinterface\UserInt
 C:\Users\user\Desktop\userinterface+jenkins\f.korzh-task_1\userinterface\UserInterfaceVisual\obj\Debug\net7.0\UserInterfaceVisual.pdb
 C:\Users\user\Desktop\userinterface+jenkins\f.korzh-task_1\userinterface\UserInterfaceVisual\obj\Debug\net7.0\UserInterfaceVisual.genruntimeconfig.cache
 C:\Users\user\Desktop\userinterface+jenkins\f.korzh-task_1\userinterface\UserInterfaceVisual\obj\Debug\net7.0\ref\UserInterfaceVisual.dll
+C:\Users\user\Desktop\userinterface+jenkins\f.korzh-task_1\userinterface\UserInterfaceVisual\bin\Debug\net7.0\Microsoft.Office.Interop.Excel.dll
